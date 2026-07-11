@@ -1,6 +1,6 @@
 # PeerLink - P2P File Sharing Application
 
-PeerLink is a peer-to-peer file sharing application that allows users to share files directly between devices using a simple invite code system.
+Peer-to-peer file sharing — upload a file, get an invite code, share it, and the recipient downloads directly from your device. No cloud storage in between.
 
 ## Project Structure
 
@@ -188,25 +188,3 @@ classDiagram
    - Invite codes (port numbers) are generated for sharing
    - Direct peer-to-peer file transfer using WebSocket connections
 
-## Security Considerations
-
-- This is a demo application and does not include encryption or authentication
-- For production use, consider adding:
-  - File encryption
-  - User authentication
-  - HTTPS support
-  - Port validation and security
-
-## Deployment
-
-For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
-
-Options include:
-- Local network deployment
-- Docker deployment (using provided Dockerfile.backend, Dockerfile.frontend, and docker-compose.yml)
-- Cloud deployment (Heroku, Railway, Vercel, Netlify)
-- VPS deployment
-
-## License
-
-MIT
